@@ -7,5 +7,6 @@ export default defineConfig({
     base: "counter",
     build: {
         manifest: true,
+        outDir: "dist/counter",
     },
 });
