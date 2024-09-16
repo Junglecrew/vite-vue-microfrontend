@@ -4,9 +4,9 @@ import vue from "@vitejs/plugin-vue";
 // https://vitejs.dev/config/
 export default defineConfig({
     plugins: [vue()],
-    base: "counter",
-    build: {
-        manifest: true,
-        outDir: "dist/counter",
-    },
+    // base: "counter",
+    // build: {
+    //     manifest: true,
+    //     outDir: "dist/counter",
+    // },
 });
